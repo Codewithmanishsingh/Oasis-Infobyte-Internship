@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    flex-wrap: wrap; */
+}
+/* .box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.main{
+    width: 100%;
+    height: 100%;
+} */
+header{
+    font-family: 'Tangerine',cursive;
+    font-weight: bolder;
+    background: url('./bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63rem;
+    z-index: -1;
+    opacity: 0.9;
+}
+/* header{
+color: white;
+
+} */
+.left{
+    position: absolute;
+    left: 60px;
+    top: 29px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.mid{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 29px auto;
+    /* border: 2px solid red; */
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 29px;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: 23px;
+    color:white;
+    display: inline-block;
+}
+.navbar li a{
+    padding: 8px 8px;
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(88, 234, 26);
+}
+.left div{
+    line-height: 19px;
+    font-size: 13px;
+    margin-top: 2px;
+    text-align: center;
+}
+.left img{
+    filter: invert(100%);
+    position: sticky;
+    width: 100px;
+}
+.btn{
+    font-family: 'Tangerine',cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: rgb(194, 22, 22);
+}
+.container{
+    color: white;
+    border: 2px solid white;
+    margin: 15rem 80px;
+    margin-bottom: 20rem;
+    padding: 36px;
+    width: 34%;
+    border-radius: 28px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 29px;
+}
+.container button{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+.form-group input{
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    /* width: 508px; */
+    padding: 4px;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Tangerine',cursive;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 8rem;
+    margin-top: -1rem;
+}
+.footer footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 1rem 0 2rem;
+    padding-top: 1.5rem;
+}
+.bottom img{
+    filter: invert(100%);
+    position: sticky;
+    width: 100px;
+}
+footer span{
+    font-size: 2rem;
+    margin: 1.4rem;
+}
